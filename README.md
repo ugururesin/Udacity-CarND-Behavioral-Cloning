@@ -5,6 +5,7 @@
 Overview
 ---
 ![](img/sample.gif)
+
 (Vehicle driving autonomously)
 
 In this project, a convolutional neural network is trained to clone a driving behavior from a simulator.
@@ -65,7 +66,12 @@ The CNN architecture is used from NVIDIA's End to End Learning for Self-Driving 
 Reference: https://arxiv.org/pdf/1604.07316v1.pdf
 
 6. Compiling and Saving the Model
-* Finally, the model is compiled using **Mean Square Error (MSE)** loss function and **Adaptive moment estimation** optimizer (a.k.a adam)
+* Finally, the model is compiled using **Mean Square Error (MSE)** loss function and **Adaptive moment estimation** optimizer (a.k.a adam)  
+
+Initially, the number of epochs is set to 10.  
+However, the validation loss is started to increase after the 6th epoch progressively.  
+Thus, the number of **epochs** is set to 6!  
+![](img/epochs10.png)
 
 
 ### Dependencies
