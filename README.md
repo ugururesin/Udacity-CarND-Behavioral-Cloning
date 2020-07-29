@@ -71,6 +71,7 @@ Reference: https://arxiv.org/pdf/1604.07316v1.pdf
 Initially, the number of epochs is set to 10.  
 However, the validation loss is started to increase after the 6th epoch progressively.  
 Thus, the number of **epochs** is set to 6!  
+
 ![](img/epochs10.png)
 
 
