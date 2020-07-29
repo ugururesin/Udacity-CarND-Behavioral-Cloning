@@ -80,5 +80,5 @@ Also, the pipeline.ipynb file includes the required Python libraries.
 
 ### Suggestions
 To improve the success of the network, some suggestions are followed:
-* Once
+* In this project, only the steering angle is added as a dependent variable (label) for the corresponding camera images. However, it can be understood that this alone is not sufficient, because the autonomous mode driving speed is low, and that the vehicle wobbles around the center line during turns. At this point, speed and braking data can also be added to the model to train a driving behavior that can make smoother turns.
 
