@@ -59,7 +59,7 @@ The pipeline consist of, six steps as follows: (Step 0 is importing the required
 * Since the outcome of the architecture is good as expected, no further image processing applied
 
 5. Creating the CNN Architecture using Keras
-* Following CNN architecture is used as shown below:
+* Following CNN architecture is used as shown below:  
 ![](img/cnn.png)
 
 The CNN architecture is used from NVIDIA's End to End Learning for Self-Driving Cars paper.
